@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible" content="ie=edge")
+    link(rel="shortcut icon" type="image/png" href="images/favicon.png")
+    title Document
+    // JQuery 
+    script(src="https://code.jquery.com/jquery-3.3.1.min.js")
+    // Bootstrap 
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css")
+    // FontAwesome 
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css")
+    // Стили 
+    link(rel='stylesheet' type='text/css' href='assets/style.css')
+    // Шрифты
+    link(href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic" rel="stylesheet")
+  body
+    //- Подключаем миксины
+    include ../blocks/mixins
+    block content
+    // /Контент
+    // Footer 
+    include ../blocks/footer
+    // Свои скрипты
+    block customScripts

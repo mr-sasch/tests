@@ -2,9 +2,21 @@ extends ../templates/template
 
 block content
   header.b
-    .navbar-wrap.b
+    .navbar.b
       .container
-        .navbar
-          img(src='images/logo__header.png')  
+        .row.w-100
+          .col.d-flex.align-items-center.justify-content-between.b
+            img.logo(src='images/logo__header.png')
+            .navs.d-flex.justify-content-between.pl-5.pr-5
+              .navs__item.mr-2.ml-2 Законы КНР
+              .navs__item.mr-2.ml-2 Заказать перевод
+              .navs__item.mr-2.ml-2 Полезные ссылки
+              .navs__item.mr-2.ml-2 Китаеведы, НИИ
+            .search-n-contacts.b
+              .d-flex.align-items-center
+                .contacts.b.mr-4
+                  .contacts__row +375(29)123-45-67
+                  .contacts__row +375(29)123-45-67
+                .search.b
   main
   footer

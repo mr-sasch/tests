@@ -2,14 +2,18 @@
   border: 1px solid;
   box-sizing: border-box;
 }
-header {
+.w-100 {
   width: 100%;
+}
+header {
   height: 500px;
 }
-nav {
-  width: 100%;
-  flex-grow: 0;
-  flex-shrink: 0;
+.search {
+  width: 30px;
+  height: 30px;
+}
+.navs {
+  flex-grow: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
